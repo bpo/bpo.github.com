@@ -1,9 +1,53 @@
+<!doctype html>
 <html>
-  <head>
-    <title>bpo.github.com</title>
-  </head>
+<head>
+  <title>bpo.github.com</title>
+  <script type="text/javascript" src="yui-min.js"></script> 
+</head>
 
-  <body>
-    Goodbye, cruel world!
-  </body>
+<body bgcolor="#fffff3">
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+                                                                                                    <div id="demo"></div> 
+                                                                                                    <script> 
+                                                                                                    YUI().use("node", "dom",
+                                                                                                    function(Y, DOM) {
+                                                                                                      KBAD = DOM
+                                                                                                        var node = Y.one('#demo');
+                                                                                                        node.setStyle('backgroundColor', '#fffff3');
+                                                                                                        node.setStyle('position', 'absolute');
+                                                                                                        node.setX( node.get('docWidth') / 2 );
+                                                                                                        node.setY( node.get('docHeight') - 230 );
+                                                                                                        node.set('innerHTML', '|');
+                                                                                                    });
+                                                                                                    </script> 
+
+</body>
 </html>
